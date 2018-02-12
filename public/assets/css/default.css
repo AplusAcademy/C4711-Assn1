@@ -20,8 +20,7 @@ h1 {
 	border-bottom: 1px solid #D0D0D0;
 	font-size: 19px;
 	font-weight: normal;
-	margin: 0 0 14px 0;
-	padding: 14px 15px 10px 15px;
+	padding: 15px 15px 15px 15px;
 }
 
 code {
@@ -39,6 +38,13 @@ code {
 	margin: 0 15px 0 15px;
 }
 
+#home-dashboard {
+  padding: 15px;
+  width: 75%;
+  margin: 0 auto;
+  background-color: white;
+}
+
 p.footer {
 	text-align: right;
 	font-size: 11px;
@@ -49,7 +55,84 @@ p.footer {
 }
 
 #container {
-	margin: 10px;
+	margin: 5%;
 	border: 1px solid #D0D0D0;
 	box-shadow: 0 0 8px #D0D0D0;
+        padding: 55px;
+}
+
+#homepage-title{
+	text-align: center;
+}
+
+.homepage-content{
+	margin: 5%;
+}
+
+.navbar-collapse.collapse {
+  display: block!important;
+}
+
+.navbar-nav>li, .navbar-nav, .navbar-nav>li>ul {
+  float: left !important;
+}
+
+.navbar-nav.navbar-right:last-child {
+  margin-right: -15px !important;
+}
+
+ul ul {
+    padding: 10px;
+    list-style-type: none;
+    display: none;
+}
+
+li:hover ul {
+    display: inline-block;
+}
+
+.navbar-right {
+  float: right!important;
+}
+
+caption{
+    margin-left: 45%;
+    font-family: "Arial Black";
+    font-size: medium;
+}
+
+.buttons{
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: 15%;
+}
+
+#preset-dropdown {
+    padding-bottom: 3em;
+    font-size: 1em;
+    color: grey;
+}
+
+select {
+    background-color: #f8f8f8;
+    border: thin solid black;
+    border-radius: 4px;
+    position: relative;
+    display: inline-block;
+    font: inherit;
+    font-weight: bolder;
+    line-height: 1.5em;
+    padding: 0.5em 1em 0.5em 1em;
+
+    margin: 10px;      
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+select.round:focus {
+    border-color: red;
+    outline: 0;
 }

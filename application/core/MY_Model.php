@@ -96,7 +96,7 @@ class MY_Model extends Entity implements DataMapper
 	}
 
 	// Retrieve an existing DB record as an object
-	function get($key, $key2 = null)
+	function get($key, $key2)
 	{
 		$this->db->where($this->_keyField, $key);
 		$query = $this->db->get($this->_tableName);
@@ -124,14 +124,14 @@ class MY_Model extends Entity implements DataMapper
 	}
 
 	// Delete a record from the DB
-	function delete($key, $key2 = null)
+	function delete($key, $key2)
 	{
 		$this->db->where($this->_keyField, $key);
 		$object = $this->db->delete($this->_tableName);
 	}
 
 	// Determine if a key exists
-	function exists($key, $key2 = null)
+	function exists($key, $key2)
 	{
 		$this->db->where($this->_keyField, $key);
 		$query = $this->db->get($this->_tableName);
