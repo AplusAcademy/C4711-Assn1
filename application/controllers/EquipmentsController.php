@@ -1,9 +1,9 @@
 <?php
  
-defined('BASEPATH') OR exit('No direct script access allowed');
-
-class EquipmentsController extends Application
-{
+ defined('BASEPATH') OR exit('No direct script access allowed');
+ 
+ class EquipmentsController extends Application
+ {
     /**
      * Constructor for EquipmentsController.
      * 
@@ -15,29 +15,32 @@ class EquipmentsController extends Application
         $this->load->model('assetscsv');
         $this->data['pagetitle'] = 'Equipments build';
         $this->data['pagebody'] = 'assembly';
-    }
-    
-    /**
-     * Index Page for this controller.
-     *
-     * It grabs all the data from assetscsv and render it on specified view.
-     */
-    public function index()
-    {             
-        $parts = $this->assetscsv->all();
-        $this->data['parts'] = $parts;
-        $this->render();
-    }
+	  }
+ 	/**
+ 	 * Index Page for this controller.
+ 	 *
+ 	 * Maps to the following URL
+ 	 * 		http://example.com/
+ 	 * 	- or -
+ 	 * 		http://example.com/welcome/index
+ 	 *
+ 	 * So any other public methods not prefixed with an underscore will
+ 	 * map to /welcome/<method_name>
+ 	 * @see https://codeigniter.com/user_guide/general/urls.html
+ 	 */
+ 	public function index()
+ 	{
+    $this->data['page_category'] = " all-equipments";        
+    $items = $this->assetscsv->all();
+    $this->data['items'] = $items;
+    $this->render();
+ 	}
 
-    /**
-     * Filters the data in assetscsv by category with a given key.
-     * 
-     * @param type $key
-     */
-    public function category($key)
-    {
-        $parts = $this->assetscsv->some('category', $key);
-        $this->data['parts'] = $parts;
-        $this->render();
-    }
-}
+  public function category($key)
+  {
+      $this->data['page_category'] = " ".$key;        
+      $items = $this->assetscsv->some('category', $key);
+      $this->data['items'] = $items;
+      $this->render();
+  }
+ }

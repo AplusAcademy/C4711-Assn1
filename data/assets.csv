@@ -1,42 +1,42 @@
 id,name,category,str,dex,int
-am0,amulet_0,amulet,0,0,3
-am1,amulet_1,amulet,0,1,2
-am2,amulet_2,amulet,1,0,2
-be0,belt_0,belt,2,0,2
-be1,belt_1,belt,4,0,0
-be2,belt_2,belt,0,4,0
-be3,belt_3,belt,0,0,4
-bo0,boot_0,boot,5,0,5
-bo1,boot_1,boot,0,0,10
-gl0,glove_0,glove,10,0,0
-gl1,glove_1,glove,5,0,5
-gl2,glove_2,glove,5,5,0
-gl3,glove_3,glove,0,10,0
-he0,helmet_0,helmet,0,20,0
-he1,helmet_1,helmet,5,15,0
-he2,helmet_2,helmet,0,15,5
-he3,helmet_3,helmet,0,0,20
-ch0,chest_0,chest,0,0,0
-ch1,chest_1,chest,0,0,100
-ch2,chest_2,chest,0,100,0
-ch3,chest_3,chest,50,0,50
-ch4,chest_4,chest,50,50,0
-ri0,ring_0,ring,2,0,1
-ri1,ring_1,ring,0,2,0
-ri2,ring_2,ring,0,1,1
-ri3,ring_3,ring,0,0,2
-ri4,ring_4,ring,1,1,0
-ri5,ring_5,ring,1,0,1
-we0,weapon_0,weapon,0,25,25
-we1,weapon_1,weapon,0,25,25
-we2,weapon_2,weapon,25,25,0
-we3,weapon_3,weapon,13,25,12
-we4,weapon_4,weapon,50,0,0
-we5,weapon_5,weapon,0,10,40
-we6,weapon_6,weapon,0,20,30
-we7,weapon_7,weapon,10,0,40
-we8,weapon_8,weapon,20,0,30
-we9,weapon_9,weapon,0,0,50
-we10,weapon_10,weapon,25,0,25
-we11,weapon_11,weapon,0,50,0
-we12,weapon_12,weapon,0,40,10
+amulet_0,primal skull,amulet,0,0,3
+amulet_1,lazhwar's stone,amulet,0,1,2
+amulet_2,coral,amulet,1,0,2
+belt_0,soulthirst,belt,2,0,2
+belt_1,doryani's,belt,4,0,0
+belt_2,clothed,belt,0,4,0
+belt_3,stygian,belt,0,0,4
+boot_0,gang's,boot,5,0,5
+boot_1,ullr,boot,0,0,10
+glove_0,titan gloves,glove,10,0,0
+glove_1,repetence,glove,5,0,5
+glove_2,spiked gloves,glove,5,5,0
+glove_3,null and void,glove,0,10,0
+helmet_0,silken hood,helmet,0,20,0
+helmet_1,three dragons,helmet,5,15,0
+helmet_2,fairgrave's,helmet,0,15,5
+helmet_3,bone helmet,helmet,0,0,20
+chest_0,tabula rasa,chest,0,0,0
+chest_1,bone armour,chest,0,0,100
+chest_2,coming calamity,chest,0,100,0
+chest_3,cloak flame,chest,50,0,50
+chest_4,waxed garb,chest,50,50,0
+ring_0,mokou,ring,2,0,1
+ring_1,sapphire,ring,0,2,0
+ring_2,ruby,ring,0,1,1
+ring_3,amethyst,ring,0,0,2
+ring_4,moonstone,ring,1,1,0
+ring_5,diamond,ring,1,0,1
+weapon_0,fiend dagger,weapon,0,25,25
+weapon_1,mightflay,weapon,0,25,25
+weapon_2,sharktooth,weapon,25,25,0
+weapon_3,goredrill,weapon,13,25,12
+weapon_4,limbsplit,weapon,50,0,0
+weapon_5,spiral wand,weapon,0,10,40
+weapon_6,reverberation rod,weapon,0,20,30
+weapon_7,bitterdream,weapon,10,0,40
+weapon_8,nycta's lantern,weapon,20,0,30
+weapon_9,midnight bargain,weapon,0,0,50
+weapon_10,whispering ice,weapon,25,0,25
+weapon_11,roth's reach,weapon,0,50,0
+weapon_12,doomfletch,weapon,0,40,10

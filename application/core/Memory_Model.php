@@ -233,7 +233,7 @@ class Memory_Model extends Entity implements DataMapper
 	// Retrieve first record from a table.
 	function first()
 	{
-		return $this->_data[0];
+		return array_values($this->_data)[0];
 	}
 
 	// Retrieve records from the beginning of a table.
