@@ -1,0 +1,11 @@
+id,name,category,str,dex,int
+amulet,ring_slot,amulet,0,0,0
+belt,belt_slot,belt,0,0,0
+boot,helmet_slot,boot,0,0,0
+glove,helmet_slot,glove,0,0,0
+helmet,helmet_slot,helmet,0,0,0
+chest,chest_slot,chest,0,0,0
+ring_left,ring_slot,ring,0,0,0
+ring_right,ring_slot,ring,0,0,0
+weapon_left,weapon_slot,weapon,0,0,0
+weapon_right,weapon_slot,weapon,0,0,0

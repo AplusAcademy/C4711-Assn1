@@ -1,42 +1,43 @@
 id,name,category,str,dex,int
-amulet_0,primal skull,amulet,0,0,3
-amulet_1,lazhwar's stone,amulet,0,1,2
+amulet_0,"primal skull",amulet,0,0,3
+amulet_1,"lazhwar's stone",amulet,0,1,2
 amulet_2,coral,amulet,1,0,2
 belt_0,soulthirst,belt,2,0,2
 belt_1,doryani's,belt,4,0,0
-belt_2,clothed,belt,0,4,0
+belt_2,cloth,belt,0,4,0
 belt_3,stygian,belt,0,0,4
+belt_4,"head hunter",belt,100,100,100
 boot_0,gang's,boot,5,0,5
 boot_1,ullr,boot,0,0,10
-glove_0,titan gloves,glove,10,0,0
+chest_0,"tabula rasa",chest,0,0,0
+chest_1,"bone armour",chest,0,0,100
+chest_2,"coming calamity",chest,0,100,0
+chest_3,"cloak flame",chest,50,0,50
+chest_4,"waxed garb",chest,50,50,0
+glove_0,"titan gloves",glove,10,0,0
 glove_1,repetence,glove,5,0,5
-glove_2,spiked gloves,glove,5,5,0
-glove_3,null and void,glove,0,10,0
-helmet_0,silken hood,helmet,0,20,0
-helmet_1,three dragons,helmet,5,15,0
+glove_2,"spiked gloves",glove,5,5,0
+glove_3,"null and void",glove,0,10,0
+helmet_0,"silken hood",helmet,0,20,0
+helmet_1,"three dragons",helmet,5,15,0
 helmet_2,fairgrave's,helmet,0,15,5
-helmet_3,bone helmet,helmet,0,0,20
-chest_0,tabula rasa,chest,0,0,0
-chest_1,bone armour,chest,0,0,100
-chest_2,coming calamity,chest,0,100,0
-chest_3,cloak flame,chest,50,0,50
-chest_4,waxed garb,chest,50,50,0
+helmet_3,"bone helmet",helmet,0,0,20
 ring_0,mokou,ring,2,0,1
 ring_1,sapphire,ring,0,2,0
 ring_2,ruby,ring,0,1,1
 ring_3,amethyst,ring,0,0,2
 ring_4,moonstone,ring,1,1,0
 ring_5,diamond,ring,1,0,1
-weapon_0,fiend dagger,weapon,0,25,25
+weapon_0,"fiend dagger",weapon,0,25,25
 weapon_1,mightflay,weapon,0,25,25
+weapon_10,"whispering ice",weapon,25,0,25
+weapon_11,"roth's reach",weapon,0,50,0
+weapon_12,doomfletch,weapon,0,40,10
 weapon_2,sharktooth,weapon,25,25,0
 weapon_3,goredrill,weapon,13,25,12
 weapon_4,limbsplit,weapon,50,0,0
-weapon_5,spiral wand,weapon,0,10,40
-weapon_6,reverberation rod,weapon,0,20,30
+weapon_5,"spiral wand",weapon,0,10,40
+weapon_6,"reverberation rod",weapon,0,20,30
 weapon_7,bitterdream,weapon,10,0,40
-weapon_8,nycta's lantern,weapon,20,0,30
-weapon_9,midnight bargain,weapon,0,0,50
-weapon_10,whispering ice,weapon,25,0,25
-weapon_11,roth's reach,weapon,0,50,0
-weapon_12,doomfletch,weapon,0,40,10
+weapon_8,"nycta's lantern",weapon,20,0,30
+weapon_9,"midnight bargain",weapon,0,0,50

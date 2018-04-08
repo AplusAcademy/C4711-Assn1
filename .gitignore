@@ -4,6 +4,10 @@
 */cache/*
 !*/cache/index.html
 !*/cache/.htaccess
+tmp/*
+vendor/
+composer.lock
+tests/coverage
 
 user_guide_src/build/*
 user_guide_src/cilexer/build/*

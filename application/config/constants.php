@@ -1,5 +1,8 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
+defined('ROLE_GUEST') OR define('ROLE_GUEST', 'Guest');
+defined('ROLE_USER') OR define('ROLE_USER', 'User');
+defined('ROLE_ADMIN') OR define('ROLE_ADMIN', 'Admin');
 
 /*
 |--------------------------------------------------------------------------

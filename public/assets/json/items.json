@@ -1,0 +1,378 @@
+[
+  {
+    "name": "amulet_0",
+    "displayName": "primal skull",
+    "category": "amulet",
+    "imageSrc": "./assets/img/amulet_0.png",
+    "str": 0,
+    "dex": 0,
+    "int": 3
+  },
+  {
+    "name": "amulet_1",
+    "displayName": "lazhwar's stone",
+    "category": "amulet",
+    "imageSrc": "./assets/img/amulet_1.png",
+    "str": 0,
+    "dex": 1,
+    "int": 2
+  },
+  {
+    "name": "amulet_2",
+    "displayName": "coral",
+    "category": "amulet",
+    "imageSrc": "./assets/img/amulet_2.png",
+    "str": 1,
+    "dex": 0,
+    "int": 2
+  },
+
+  {
+    "name": "belt_0",
+    "displayName": "soulthirst",
+    "category": "belt",
+    "imageSrc": "./assets/img/belt_0.png",
+    "str": 2,
+    "dex": 0,
+    "int": 2
+  },
+  {
+    "name": "belt_1",
+    "displayName": "doryani's",
+    "category": "belt",
+    "imageSrc": "./assets/img/belt_1.png",
+    "str": 4,
+    "dex": 0,
+    "int": 0
+  },
+  {
+    "name": "belt_2",
+    "displayName": "clothed",
+    "category": "belt",
+    "imageSrc": "./assets/img/belt_2.png",
+    "str": 0,
+    "dex": 4,
+    "int": 0
+  },
+  {
+    "name": "belt_3",
+    "displayName": "stygian",
+    "category": "belt",
+    "imageSrc": "./assets/img/belt_3.png",
+    "str": 0,
+    "dex": 0,
+    "int": 4
+  },
+
+  {
+    "name": "boot_0",
+    "displayName": "gang's",
+    "category": "boot",
+    "imageSrc": "./assets/img/boot_0.png",
+    "str": 5,
+    "dex": 0,
+    "int": 5
+  },
+  {
+    "name": "boot_1",
+    "displayName": "ullr",
+    "category": "boot",
+    "imageSrc": "./assets/img/boot_1.png",
+    "str": 0,
+    "dex": 0,
+    "int": 10
+  },
+  
+  {
+    "name": "glove_0",
+    "displayName": "titan gloves",
+    "category": "glove",
+    "imageSrc": "./assets/img/glove_0.png",
+    "str": 10,
+    "dex": 0,
+    "int": 0
+  },
+  {
+    "name": "glove_1",
+    "displayName": "repetence",
+    "category": "glove",
+    "imageSrc": "./assets/img/glove_1.png",
+    "str": 5,
+    "dex": 0,
+    "int": 5
+  },
+  {
+    "name": "glove_2",
+    "displayName": "spiked gloves",
+    "category": "glove",
+    "imageSrc": "./assets/img/glove_2.png",
+    "str": 5,
+    "dex": 5,
+    "int": 0
+  },
+  {
+    "name": "glove_3",
+    "displayName": "null and void",
+    "category": "glove",
+    "imageSrc": "./assets/img/glove_3.png",
+    "str": 0,
+    "dex": 10,
+    "int": 0
+  },
+
+  {
+    "name": "helmet_0",
+    "displayName": "silken hood",
+    "category": "helmet",
+    "imageSrc": "./assets/img/helmet_0.png",
+    "str": 0,
+    "dex": 20,
+    "int": 0
+  },
+  {
+    "name": "helmet_1",
+    "displayName": "three dragons",
+    "category": "helmet",
+    "imageSrc": "./assets/img/helmet_1.png",
+    "str": 5,
+    "dex": 15,
+    "int": 0
+  },
+  {
+    "name": "helmet_2",
+    "displayName": "fairgrave's",
+    "category": "helmet",
+    "imageSrc": "./assets/img/helmet_2.png",
+    "str": 0,
+    "dex": 15,
+    "int": 5
+  },
+  {
+    "name": "helmet_3",
+    "displayName": "bone helmet",
+    "category": "helmet",
+    "imageSrc": "./assets/img/helmet_3.png",
+    "str": 0,
+    "dex": 0,
+    "int": 20
+  },
+
+  {
+    "name": "chest_0",
+    "displayName": "tabula rasa",
+    "category": "chest",
+    "imageSrc": "./assets/img/chest_0.png",
+    "str": 0,
+    "dex": 0,
+    "int": 0
+  },
+  {
+    "name": "chest_1",
+    "displayName": "bone armour",
+    "category": "chest",
+    "imageSrc": "./assets/img/chest_1.png",
+    "str": 0,
+    "dex": 0,
+    "int": 100
+  },
+  {
+    "name": "chest_2",
+    "displayName": "coming calamity",
+    "category": "chest",
+    "imageSrc": "./assets/img/chest_2.png",
+    "str": 0,
+    "dex": 100,
+    "int": 0
+  },
+  {
+    "name": "chest_3",
+    "displayName": "cloak flame",
+    "category": "chest",
+    "imageSrc": "./assets/img/chest_3.png",
+    "str": 50,
+    "dex": 0,
+    "int": 50
+  },
+  {
+    "name": "chest_4",
+    "displayName": "waxed garb",
+    "category": "chest",
+    "imageSrc": "./assets/img/chest_4.png",
+    "str": 50,
+    "dex": 50,
+    "int": 0
+  },
+
+  {
+    "name": "ring_0",
+    "displayName": "mokou",
+    "category": "ring",
+    "imageSrc": "./assets/img/ring_0.png",
+    "str": 2,
+    "dex": 0,
+    "int": 1
+  },
+  {
+    "name": "ring_1",
+    "displayName": "sapphire",
+    "category": "ring",
+    "imageSrc": "./assets/img/ring_1.png",
+    "str": 0,
+    "dex": 2,
+    "int": 0
+  },
+  {
+    "name": "ring_2",
+    "displayName": "ruby",
+    "category": "ring",
+    "imageSrc": "./assets/img/ring_2.png",
+    "str": 0,
+    "dex": 1,
+    "int": 1
+  },
+  {
+    "name": "ring_3",
+    "displayName": "amethyst",
+    "category": "ring",
+    "imageSrc": "./assets/img/ring_3.png",
+    "str": 0,
+    "dex": 0,
+    "int": 2
+  },
+  {
+    "name": "ring_4",
+    "displayName": "moonstone",
+    "category": "ring",
+    "imageSrc": "./assets/img/ring_4.png",
+    "str": 1,
+    "dex": 1,
+    "int": 0
+  },
+  {
+    "name": "ring_5",
+    "displayName": "diamond",
+    "category": "ring",
+    "imageSrc": "./assets/img/ring_5.png",
+    "str": 1,
+    "dex": 0,
+    "int": 1
+  },
+
+  {
+    "name": "weapon_0",
+    "displayName": "fiend dagger",
+    "category": "weapon",
+    "imageSrc": "./assets/img/weapon_0.png",
+    "str": 0,
+    "dex": 25,
+    "int": 25
+  },
+  {
+    "name": "weapon_1",
+    "displayName": "mightflay",
+    "category": "weapon",
+    "imageSrc": "./assets/img/weapon_1.png",
+    "str": 0,
+    "dex": 25,
+    "int": 25
+  },
+  {
+    "name": "weapon_2",
+    "displayName": "sharktooth",
+    "category": "weapon",
+    "imageSrc": "./assets/img/weapon_2.png",
+    "str": 25,
+    "dex": 25,
+    "int": 1
+  },
+  {
+    "name": "weapon_3",
+    "displayName": "goredrill",
+    "category": "weapon",
+    "imageSrc": "./assets/img/weapon_3.png",
+    "str": 13,
+    "dex": 25,
+    "int": 12
+  },
+  {
+    "name": "weapon_4",
+    "displayName": "limbsplit",
+    "category": "weapon",
+    "imageSrc": "./assets/img/weapon_4.png",
+    "str": 50,
+    "dex": 0,
+    "int": 0
+  },
+  {
+    "name": "weapon_5",
+    "displayName": "spiral wand",
+    "category": "weapon",
+    "imageSrc": "./assets/img/weapon_5.png",
+    "str": 0,
+    "dex": 10,
+    "int": 40
+  },
+  {
+    "name": "weapon_6",
+    "displayName": "reverberation rod",
+    "category": "weapon",
+    "imageSrc": "./assets/img/weapon_6.png",
+    "str": 0,
+    "dex": 20,
+    "int": 30
+  },
+  {
+    "name": "weapon_7",
+    "displayName": "bitterdream",
+    "category": "weapon",
+    "imageSrc": "./assets/img/weapon_7.png",
+    "str": 10,
+    "dex": 0,
+    "int": 40
+  },
+  {
+    "name": "weapon_8",
+    "displayName": "nycta's lantern",
+    "category": "weapon",
+    "imageSrc": "./assets/img/weapon_8.png",
+    "str": 20,
+    "dex": 0,
+    "int": 30
+  },
+  {
+    "name": "weapon_9",
+    "displayName": "midnight bargain",
+    "category": "weapon",
+    "imageSrc": "./assets/img/weapon_9.png",
+    "str": 0,
+    "dex": 0,
+    "int": 50
+  }
+  {
+    "name": "weapon_10",
+    "displayName": "whispering ice",
+    "category": "weapon",
+    "imageSrc": "./assets/img/weapon_10.png",
+    "str": 25,
+    "dex": 0,
+    "int": 25
+  }
+  {
+    "name": "weapon_11",
+    "displayName": "roth's reach",
+    "category": "weapon",
+    "imageSrc": "./assets/img/weapon_11.png",
+    "str": 0,
+    "dex": 50,
+    "int": 0
+  }
+  {
+    "name": "weapon_12",
+    "displayName": "doomfletch",
+    "category": "weapon",
+    "imageSrc": "./assets/img/weapon_12.png",
+    "str": 0,
+    "dex": 40,
+    "int": 10
+  }
+]

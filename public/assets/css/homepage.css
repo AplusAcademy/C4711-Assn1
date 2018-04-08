@@ -1,0 +1,136 @@
+.imageWrapper {
+  position: relative;
+}	
+
+#chest {
+	position: absolute;
+	top: 200px;
+	left: 247px;
+}
+
+#helmet {
+	position: absolute;
+	top: 100px;
+	left: 251px;
+}
+
+#ring_left {
+	position: absolute;
+	top: 251px;
+	left: 183px;
+}
+/*ring is 50x50, each slot is 50x50*/
+#ring_right {
+	position: absolute;
+	top: 251px;
+	left: 368px;
+}
+
+#amulet {
+	position: absolute;
+	top: 193px;
+	left: 368px;
+}
+
+#belt {
+	position: absolute;
+	top: 360px;
+	left: 252px;
+}
+
+#glove {
+	position: absolute;
+	top: 312px;
+	left: 135px;
+}
+
+#boot {
+	position: absolute;
+	top: 312px;
+	left: 370px;
+}
+
+#weapon_left {
+	position: absolute;
+	top: 110px;
+	left: 65px;
+}
+
+#weapon_right {
+	position: absolute;
+	top: 110px;
+	left: 438px;
+}
+
+#inventoryBox {
+	position: absolute;
+	top: 80px;
+	left: 600px;
+	min-width: 51%; 
+
+	border-style: double;
+	border-radius: 5px;
+	border-width: 5px;
+	border-color: black;
+}
+
+#inventoryBox h3 {
+	margin-left: 5%;
+}
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    cursor: pointer;
+    padding: 14px 7px;
+}
+
+
+.tabContent {
+    display: none;
+}
+
+#statsBox {
+	position: absolute;
+	top: 220px;
+	left: 780px;
+	max-width: 20%; 
+
+	border-style: double;
+	border-radius: 5px;
+	border-width: 5px;
+	border-color: black;
+	text-align: center;
+}
+
+#statsBox td {
+	padding-left: 7px;	
+	padding-right: 7px;
+	max-width: 85px;
+}
+
+#savingControls {
+	position: absolute;
+	top: 220px;
+	left: 1025px;
+	max-width: 18%; 
+
+	border-style: double;
+	border-radius: 5px;
+	border-width: 5px;
+	border-color: black;
+	text-align: left;
+}
+
+#savingControls button {
+	background-color: inherit;
+    float: left;
+    cursor: pointer;
+    max-width: 90px;
+}
+
+#savingControls div {
+    background-color: inherit;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}

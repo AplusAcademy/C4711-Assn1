@@ -12,8 +12,13 @@ class About extends Application
 	 */
 	public function index()
 	{
-                $this->data['pagetitle'] = 'Path of Exile - About';
+     	$this->data['pagetitle'] = 'Path of Exile - About';
 		$this->data['pagebody'] = 'about';
+        $role = $this->session->userdata('userrole');
+        if ($role == "")
+            $role = "User Role";
+        $this->data['userrole'] = $role;
+
 		$this->render(); 
 	}
 }

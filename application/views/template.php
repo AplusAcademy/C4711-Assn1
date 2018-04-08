@@ -18,8 +18,7 @@
             <nav class="navbar navbar-default navbar-fixed-top">
               <div class="container">
                 <div class="navbar-header">
-                  
-                  <a class="navbar-brand" href="/homepage">Path of Exile Customization</a>
+                    <a class="navbar-brand" href="/homepage">Path of Exile Customization</a>
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                   <ul class="nav navbar-nav">
@@ -37,16 +36,26 @@
                             <li><a role="menuitem" href="/category/weapon">Weapon</a></li>
                         </ul>
                     </li>
-                    <li><a href="/assembly">Assembly</a></li>
                     <li><a href="/about">About</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            {userrole}<b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                          <li><a href="/roles/actor/Guest">Guest</a></li>
+                          <li><a href="/roles/actor/User">User</a></li>
+                          <li><a href="/roles/actor/Admin">Admin</a></li>
+                          <li><a href="/roles/actor/Logout">Logout</a></li>
+                        </ul>
+                    </li>  
                   </ul>
                   
                 </div>
               </div>
             </nav>
             <div id="container">
-                            {content}
-                            <p class="footer">Path of Exile by Team Recoil</p>
+                {content}
+                <p class="footer">Path of Exile by Team Recoil</p>
             </div>
 	</body>
 </html>
